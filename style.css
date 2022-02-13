@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: #DE1717;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2%;
+}
+
+.heading {
+  margin: 3% 5%;
+  font-size: 2rem;
+}
+
+.continer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5%;
+}
+
+/* Outer rectanglebox */
+.rectanglebox {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  border: 3px solid #9733ff;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 5%;
+}
+
+/* Inner rectanglebox */
+.rectanglebox-inner {
+  margin: auto 10px;
+  padding: 10px;
+}
+
+.movie-name {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.button-action {
+  background-color: #AA13DE;
+  text-decoration: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+  margin-right: 3%;
+  color: black;
+}
+
+.button-action:hover {
+  background-color: #FF007C;
+}
+
+.button-thrill {
+  background-color: #1338DE;
+  text-decoration: none;
+  padding: 8px 8px;
+  border-radius: 4px;
+  color: black;
+}
+
+.button-thrill:hover {
+  background-color: #000CFF;
+}
+
+.button-like {
+  max-width: 40px;
+  filter: invert(38%) sepia(100%) saturate(1146%) hue-rotate(89deg)
+    brightness(109%) contrast(111%);
+}
+.like {
+  font-size: 1.8rem;
+  color: #00cc00;
+  margin: 8%;
+}
+
+.poster-img {
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+.content-1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.content-2 {
+  color: rgb(85, 85, 85);
+  font-size: 1.3rem;
+}
+
+/* Smaller Screens */
+
+@media (max-width: 700px) {
+  .nav {
+    font-size: 2rem;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .rectanglebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    margin: 0 30px;
+  }
+
+  .rectanglebox-inner {
+    align-items: left;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .poster-img {
+    max-width: 250px;
+  }
+
+  .content-1 {
+    font-size: 1.5rem;
+  }
+
+  .content-2 {
+    font-size: 1.2rem;
+  }
+
+  .button-like {
+    max-width: 25px;
+    filter: invert(27%) sepia(84%) saturate(4195%) hue-rotate(260deg)
+      brightness(100%) contrast(103%);
+    margin-left: 0.5rem;
+  }
+  .like {
+    font-size: 1.2rem;
+    color: #9733ff;
+  }
+}
