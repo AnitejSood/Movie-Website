@@ -4,7 +4,7 @@ body {
 }
 
 .nav {
-  background-color: #DE1717;
+  background-color: #0100FF;
   color: white;
   font-size: 3rem;
   text-align: center;
@@ -47,28 +47,28 @@ body {
 }
 
 .button-action {
-  background-color: #AA13DE;
+  background-color: #D88E8E;
   text-decoration: none;
-  padding: 8px 8px;
-  border-radius: 4px;
+  padding: 7px 5px;
+  border-radius: 5px;
   margin-right: 3%;
   color: black;
 }
 
 .button-action:hover {
-  background-color: #FF007C;
+  background-color: #C98DDB;
 }
 
 .button-thrill {
-  background-color: #1338DE;
+  background-color: #9BC6DD;
   text-decoration: none;
-  padding: 8px 8px;
-  border-radius: 4px;
+  padding: 7px 5px;
+  border-radius: 5px;
   color: black;
 }
 
 .button-thrill:hover {
-  background-color: #000CFF;
+  background-color: #7BB9DA;
 }
 
 .button-like {
@@ -101,7 +101,7 @@ body {
 
 @media (max-width: 700px) {
   .nav {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .heading {
@@ -127,7 +127,7 @@ body {
   }
 
   .poster-img {
-    max-width: 250px;
+    max-width: 200px;
   }
 
   .content-1 {
